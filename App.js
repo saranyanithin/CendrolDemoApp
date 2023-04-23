@@ -20,7 +20,7 @@ export default function App() {
           name="EmployeeDetail"
           component={EmployeeDetailScreen}
           options={{
-            presentation: "modal",
+            title: "Detail",
           }}
         />
       </Stack.Navigator>
